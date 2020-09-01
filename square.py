@@ -8,7 +8,7 @@ def square(h, n):
     slist = [int(h), int(n)]
     result = slist[0] * slist[1]
     realresult = str(result) + "가 사각형의 넓이입니다."
-    return realresult
+    return realresult #출력
 def age(n):
     try:
         int(n)
@@ -16,5 +16,5 @@ def age(n):
         raise IndexError
     result = int(time.strftime('%Y', time.localtime(time.time()))) - int(n) + 1
     realresult = str(result) + "살입니다."
-    return realresult
+    return realresult #출력
     
